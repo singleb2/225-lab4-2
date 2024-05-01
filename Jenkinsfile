@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/singleb2'                                   //<-----change this to your MiamiID!
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/singleb2/225-lab4-2.git'     //<-----change this to match this new repository!
-        KUBECONFIG = credentials('singlb2-225')                           //<-----change this to match your kubernetes credentials (MiamiID-225)! 
+        KUBECONFIG = credentials('singleb2-225')                           //<-----change this to match your kubernetes credentials (MiamiID-225)! 
     }
 
     stages {
